@@ -7,7 +7,6 @@ import OpacityIcon from "@mui/icons-material/Opacity";
 import CompressIcon from "@mui/icons-material/Compress";
 import Image from "./components/Image";
 
-
 import "./App.css";
 
 const App = () => {
@@ -37,10 +36,10 @@ const App = () => {
   return (
     <div className="app">
       <div className="container">
-      <div className="weather-container">
-            <h1>Aplikacja pogodowa</h1>
-          </div>
-      <Image />
+        <div className="weather-container">
+          <h1>Aplikacja pogodowa</h1>
+        </div>
+        <Image />
         <input
           type="text"
           placeholder="Miasto..."
