@@ -5,6 +5,7 @@
   justify-content: center;
   height: 100vh;
   padding: 50px;
+  font-family: 'Nunito', sans-serif;
 }
 .container {
   display: flex;
@@ -25,6 +26,7 @@ input {
   outline: none;
   font-size: 16px;
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 .weather-container { 
   display: flex;
@@ -53,19 +55,50 @@ input {
   align-items: center;
   margin: 0 auto;
 }
+.city-name { 
+  font-size: 25;
+  margin-left: 5px;
+}
 .city { 
   font-size: 25;
   color: rgb(76, 195, 6);
 }
 .cloud { 
   font-size: 25;
-  color: rgb(114, 111, 150);
+  color: rgb(99, 95, 145);
+}
+.cloud-name { 
+  font-size: 25;
+  margin-left: 5px;
 }
 .sun { 
   font-size: 25;
-  color: rgba(242, 242, 11, 0.88);
+  color: rgb(220, 23, 23);
+}
+.sun-name { 
+  font-size: 25;
+  margin-left: 5px;
 }
 .windy { 
   font-size: 25;
   color: rgb(67, 192, 230);
+}
+.wind-name { 
+  font-size: 25;
+  margin-left: 5px;
+}
+.pressure { 
+  font-size: 25;
+  color: rgba(11, 0, 11, 0.88);
+}
+.humid { 
+  font-size: 25;
+  color: rgba(24, 154, 174, 0.88);
+}
+.logo {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 200px;
+  margin-bottom: 20px;
 }
