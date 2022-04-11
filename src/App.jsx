@@ -37,6 +37,9 @@ const App = () => {
   return (
     <div className="app">
       <div className="container">
+      <div className="weather-container">
+            <h1>Aplikacja pogodowa</h1>
+          </div>
       <Image />
         <input
           type="text"
@@ -81,7 +84,6 @@ const App = () => {
           </div>
         ) : (
           <div className="weather-container">
-            <h1>Aplikacja pogodowa</h1>
             <p>Wpisz nazwę miasta aby sprawdzić aktualną pogodę</p>
           </div>
         )}
