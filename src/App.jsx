@@ -5,6 +5,8 @@ import CloudIcon from "@mui/icons-material/Cloud";
 import DeviceThermostatIcon from "@mui/icons-material/DeviceThermostat";
 import OpacityIcon from "@mui/icons-material/Opacity";
 import CompressIcon from "@mui/icons-material/Compress";
+import Image from "./components/Image";
+
 
 import "./App.css";
 
@@ -28,14 +30,14 @@ const App = () => {
   };
 
   const calculateWindSpeed = (speed) => {
-    const kmiles = 3.6;
-    return Math.round(speed * kmiles);
+    const kms = 3.6;
+    return Math.round(speed * kms);
   };
 
   return (
     <div className="app">
       <div className="container">
-      <img src="./img.png" alt="logo" className="logo" />
+      <Image />
         <input
           type="text"
           placeholder="Miasto..."
